@@ -167,7 +167,7 @@ The standard Dialogflow template is adapted by a HotelBot specific text
 
 ## Code: main routine
 
-Flask-Server code: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
+Flask-Server code: [main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
 
 ![CodeStyle](pictures/code_main_py.jpg)
 
