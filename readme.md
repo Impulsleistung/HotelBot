@@ -2,9 +2,10 @@
 
 ## Author / Designer
 
-- **Kevin Ostheimer, Dipl.-Ing.(FH)
+- **Kevin Ostheimer**, Dipl.-Ing.(FH)
 - Institution: Public
 - Co-Author: NONE
+- License: <https://github.com/Impulsleistung/HotelBot/blob/main/readme.md>
 
 ## Purpose of the project
 
