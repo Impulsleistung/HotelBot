@@ -227,10 +227,9 @@ Delete all data of Clark:
 ## Possible Improvements for production
 
 - [ ] Remove all global variables and replace them with a real Sqlite. DB
-- [ ] Deploy on <https://dashboard.heroku.com/apps>
+- [ ] [Productive Deployment](https://dashboard.heroku.com/apps)
 - [ ] Automated Unit-Tests for Flask
 - [ ] Automated Unit-Tests for Dialogflow
-- [ ] Establish a development process based on Lessons learned and systems engineering
 - [ ] Architectural cut between systems- and software-level
 - [ ] Dialogflow - Migration from ES to CX environment
 - [ ] Definition of staging environments (dev, pre-live, live)
@@ -238,9 +237,9 @@ Delete all data of Clark:
 
 ## Tooling
 
-- [x] UML diagrams in Plantuml, <https://www.planttext.com>
-- [x] Flask Prototyping Backend, <https://dialogflow.impulsleistung.repl.co>
-- [x] Flask Live Backend, <https://live.impulsleistung.repl.co>
-- [x] Dialogflow Live trained Agent, <https://bot.dialogflow.com/kevin_hotelbot>
-- [x] Dialogflow Frontend, <https://portal.botcopy.com>
-- [x] CI/CD, <https://github.com/Impulsleistung>
+- [x] [UML diagrams in Plantuml](https://www.planttext.com)
+- [x] [Flask Prototyping Backend](https://dialogflow.impulsleistung.repl.co)
+- [x] [Flask Live Backend](https://live.impulsleistung.repl.co)
+- [x] [Dialogflow Live trained Agent](https://bot.dialogflow.com/kevin_hotelbot)
+- [x] [Dialogflow Frontend](https://portal.botcopy.com)
+- [x] [CI/CD](https://github.com/Impulsleistung)
