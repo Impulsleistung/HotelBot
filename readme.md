@@ -1,11 +1,12 @@
 # Documentation
 
-## Author / Designer
+## Conception, Design and Implementation
 
-- **Kevin Ostheimer**, Dipl.-Ing.(FH)
-- Institution: Public
+- **Kevin Ostheimer**, Dipl.-Ing. (FH)
+- GitHub-Repository: [Impulsleistung/HotelBot](https://github.com/Impulsleistung/HotelBot)
 - Co-Author: NONE
-- License: <https://github.com/Impulsleistung/HotelBot/blob/main/readme.md>
+- [License](https://github.com/Impulsleistung/HotelBot/blob/main/readme.md)
+- AI-CLAUSE: Any implementation MUST follow the [Three Laws of Robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
 
 ## Purpose of the project
 
@@ -14,21 +15,16 @@
   - Natural Language Processing
   - Backend Server System
 - 100% Cloud developed a prototype
-- Active Web-Frontend for demonstration: <https://bot.dialogflow.com/kevin_hotelbot>
-- Frontend Web-Access: <https://bot.dialogflow.com/kevin_hotelbot>
-- Backend Diagnostic Web-Access: <https://hotelbotlive.impulsleistung.repl.co/>
+- [Active Web-Frontend for demonstration](https://bot.dialogflow.com/kevin_hotelbot)
+- [Frontend Web-Access](https://bot.dialogflow.com/kevin_hotelbot)
+- [Backend Diagnostic Web-Access](https://hotelbotlive.impulsleistung.repl.co/)
 - Link to paper presentation: ***.pdf (OneDrive)
-
-### License
-
-- GPLv3, <https://github.com/Impulsleistung/HotelBot/blob/main/LICENSE>
-- AI-CLAUSE: Any implementation MUST follow the [Three Laws of Robotics](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics)
 
 ## Structure of Documentation
 
 - [x] Main Documentation: [#readme.md](https://github.com/Impulsleistung/HotelBot/blob/main/readme.md)
-- [x] Architecture as UML: [#architecture/](https://github.com/Impulsleistung/HotelBot/tree/main/architecture)
-- [x] Pictures: [#pictures/](https://github.com/Impulsleistung/HotelBot/tree/main/pictures)
+- [x] Architecture as UML: [#architecture](https://github.com/Impulsleistung/HotelBot/tree/main/architecture)
+- [x] Pictures: [#pictures](https://github.com/Impulsleistung/HotelBot/tree/main/pictures)
 
 ### Sourcecode
 
@@ -184,17 +180,37 @@ Make a booking for Kevin:
 
 ![3](pictures/reservation_Kevin_frontend.jpg)
 
+Make a booking for Clark Kent:
 
 ![5](pictures/booking_botcopy.jpg)
-![2](pictures/erase_customer_data_frontend.jpg)
+
+Cancel a booking:
+
 ![4](pictures/reservation_delete_frontend.jpg)
 
-### Console debugging
+Delete all data of Clark (GDPR):
+
+![2](pictures/erase_customer_data_frontend.jpg)
+
+### Flask console debugging
+
+The bash console in Replit shows the updates to the database.
+
+Multiple bookings for one customer:
+
+![2](pictures/two_bookings_for_clark_console.jpg)
+
+Cancel of the bookings of Clark:
+
+![5](pictures/reservation_delete_console.jpg)
+
+Make a room reservation for Kevin:
+
+![3](pictures/reservation_Kevin_console.jpg)
+
+Delete all data of Clark:
 
 ![1](pictures/erase_customer_data_console.jpg)
-![3](pictures/reservation_Kevin_console.jpg)
-![5](pictures/reservation_delete_console.jpg)
-![2](pictures/two_bookings_for_clark_console.jpg)
 
 ## Backend trace debugging
 
