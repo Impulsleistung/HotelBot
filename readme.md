@@ -46,7 +46,7 @@
 - [ ] Access Credentials: Google, Replit
 - [ ] Endpoint Configuration: <https://****/webhook>
 
-# System Architecture
+## System Architecture
 
 Overview
 ![Complete Architecture](pictures/architecture_hotelBot.png)
@@ -64,8 +64,7 @@ Dialogflow Architecture
 Backend Architecture
 ![Flask Backend](pictures/architecture_hotelBot_flask.png)
 
-
-# Dialogflow Intent Implementation
+## Dialogflow Intent Implementation
 
 - Path: #dialogflow_HotelBot/intents/
 
@@ -114,7 +113,7 @@ The customer decides to *not confirm* the reservation
 ![CustomerDelete_Yes](pictures/reservation_cancel.jpg)
 The standard Dialogflow follow-up for cancel is used. No explicit phrases
 
-###  ReservationBook - yes
+### ReservationBook - yes
 
 The customer decides to *confirm* the reservation
 
@@ -148,13 +147,13 @@ Training Data and parameters:
 
 The standard Dialogflow template is adapted by a HotelBot specific text
 
-# Code: main.py
+## Code: main.py
 
-The Flask-Server code is fully commented in #main.py
-This includes also a detailed description of the intents
+The Flask-Server code is commented in [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
+
 ![CodeStyle](pictures/code_main_py.jpg)
 
-# Training data
+## Training data
 
 ## Frontend view
 
@@ -172,10 +171,6 @@ This includes also a detailed description of the intents
 
 ## Console view
 
-
-# Outlook
-
-
 ## Possible Improvements for production
 
 - Remove all global variables and replace them with a real Sqlite. DB
@@ -189,7 +184,7 @@ This includes also a detailed description of the intents
 - Clear definition of staging environments (dev, pre-live, live)
 - Link requirements to tests and functions in the code (SPICE)
 
-# Tooling
+## Tooling
 
 - [x] UML diagrams in Plantuml, <https://www.planttext.com>
 - [x] Flask Prototyping Backend, <https://dialogflow.impulsleistung.repl.co>
