@@ -2,7 +2,7 @@
 
 ## Author / Designer
 
-- **Kevin Ostheimer, Dipl.-Ing.(FH), Pub.Reg.-Nr.: 3203785**
+- **Kevin Ostheimer, Dipl.-Ing.(FH)
 - Institution: Public
 - Co-Author: NONE
 
