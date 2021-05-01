@@ -233,7 +233,7 @@ Delete all data of Clark:
 - [ ] Architectural cut between systems- and software-level
 - [ ] Dialogflow - Migration from ES to CX environment
 - [ ] Definition of staging environments (dev, pre-live, live)
-- [ ] Link requirements to tests and functions in the code (SPICE)
+- [ ] [Establish a Systems Engineering approach](https://www.nasa.gov/connect/ebooks/nasa-systems-engineering-handbook)
 
 ## Tooling
 
