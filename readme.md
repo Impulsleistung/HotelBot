@@ -22,9 +22,9 @@
 
 ## Structure of Documentation
 
-- [x] Main Documentation: [#readme.md](https://github.com/Impulsleistung/HotelBot/blob/main/readme.md)
-- [x] Architecture as UML: [#architecture](https://github.com/Impulsleistung/HotelBot/tree/main/architecture)
-- [x] Pictures: [#pictures](https://github.com/Impulsleistung/HotelBot/tree/main/pictures)
+- [x] Main Documentation: [readme.md](https://github.com/Impulsleistung/HotelBot/blob/main/readme.md)
+- [x] Architecture as UML: [architecture](https://github.com/Impulsleistung/HotelBot/tree/main/architecture)
+- [x] Pictures: [pictures](https://github.com/Impulsleistung/HotelBot/tree/main/pictures)
 
 ### Sourcecode
 
