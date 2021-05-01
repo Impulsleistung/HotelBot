@@ -15,9 +15,9 @@
   - Backend Server System
 - 100% Cloud developed a prototype
 - Active Web-Frontend for demonstration: <https://bot.dialogflow.com/kevin_hotelbot>
-- [x] Frontend Web-Access: <https://bot.dialogflow.com/kevin_hotelbot>
-- [x] Backend Diagnostic Web-Access: <https://hotelbotlive.impulsleistung.repl.co/>
-- [ ] Link to paper presentation: ***.pdf
+- Frontend Web-Access: <https://bot.dialogflow.com/kevin_hotelbot>
+- Backend Diagnostic Web-Access: <https://hotelbotlive.impulsleistung.repl.co/>
+- Link to paper presentation: ***.pdf (OneDrive)
 
 ### License
 
@@ -185,7 +185,11 @@ Flask-Server code: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/ma
 
 ### Ask for help
 
-## Backend view in CSV
+## Backend trace debugging
+
+- [Native CSV Stream](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
+- [Optical enhanced CSV in LibreOffice](https://github.com/Impulsleistung/HotelBot/blob/main/intent_debug_traces.ods)
+
 
 ## Console view
 
