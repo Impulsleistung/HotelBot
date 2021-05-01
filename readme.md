@@ -32,14 +32,14 @@
 
 ### Sourcecode
 
-- [x] Frontend Chatbot Dialogflow: [#dialogflow_HotelBot/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot)
-- [x] Backend Flask: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
-- [x] Flask Bootsequence: [#upstart.sh](https://github.com/Impulsleistung/HotelBot/blob/main/upstart.sh)
-- [x] Replit Init: [#.replit](https://github.com/Impulsleistung/HotelBot/blob/main/.replit)
+- [x] Frontend Chatbot Dialogflow: [dialogflow_HotelBot](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot)
+- [x] Backend Flask: [main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
+- [x] Flask Bootsequence: [upstart.sh](https://github.com/Impulsleistung/HotelBot/blob/main/upstart.sh)
+- [x] Replit Init: [.replit](https://github.com/Impulsleistung/HotelBot/blob/main/.replit)
 
 ### Debug Output
 
-- [x] Dialogflow-Webhook as Flat-JSON: [#fromDialogflow_NORM.csv](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
+- [x] Dialogflow-Webhook as Flat-JSON: [fromDialogflow_NORM.csv](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
 - [x] Customer Datebase (pd_init): Console
 
 ## System Architecture
@@ -64,18 +64,19 @@ Backend Architecture
 
 ## Dialogflow Intent Implementation
 
-- Path: [#dialogflow_HotelBot/intents/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot/intents)
+- Path: [dialogflow_HotelBot/intents/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot/intents)
 
 ## CustomerDelete
 
-- [x] CustomerDelete.json
+- [x] [CustomerDelete.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/CustomerDelete.json)
+
 Training Data:
 
 ![CustomerDelete](pictures/customerDelete.jpg)
 
 ### CustomerDelete - no
 
-- [x] 'CustomerDelete - no.json'
+- [x] [CustomerDelete - no.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/CustomerDelete%20-%20no.json)
 
 ![CustomerDelete_No](pictures/customerDelete_no.jpg)
 
@@ -83,7 +84,7 @@ The standard Dialogflow follow-up for denial is used. No explicit phrases
 
 ### CustomerDelete - yes
 
-- [x] 'CustomerDelete - yes.json'
+- [x] [CustomerDelete - yes.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/CustomerDelete%20-%20yes.json)
 
 ![CustomerDelete_Yes](pictures/customerDelete_yes.jpg)
 
@@ -91,7 +92,7 @@ The standard Dialogflow followup for denial is used. No explicit phrases
 
 ## CustomerHelp
 
-- [x] CustomerHelp.json
+- [x] [CustomerHelp.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/CustomerHelp.json)
 
 Training Data:
 
@@ -103,7 +104,7 @@ Defined Response:
 
 ## ReservationBook
 
-- [x] ReservationBook.json
+- [x] [ReservationBook.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationBook.json)
 
 Training Data:
 
@@ -117,25 +118,25 @@ Configuration of action parameters and response
 
 The customer decides *not to confirm* the reservation
 
-- [x] 'ReservationBook - cancel.json'
+- [x] [ReservationBook - cancel.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationBook%20-%20cancel.json)
 
 ![CustomerDelete_Yes](pictures/reservation_cancel.jpg)
 
-The standard Dialogflow follow-up for cancel is used. No explicit phrases
+The standard Dialogflow follow-up for cancel. No explicit phrases
 
 ### ReservationBook - yes
 
 The customer decides to *confirm* the reservation
 
-- [x] 'ReservationBook - yes.json'
+- [x] [ReservationBook - yes.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationBook%20-%20yes.json)
 
 ![CustomerReservation_Yes](pictures/reservation_book_yes.jpg)
 
-The standard Dialogflow follow-up for confirmation is used. No explicit phrases
+The standard Dialogflow follow-up for confirmation. No explicit phrases
 
 ### ReservationBook - yes - custom
 
-- [x] 'ReservationBook - yes - custom.json'
+- [x] [ReservationBook - yes - custom.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationBook%20-%20yes%20-%20custom.json)
 
 Training Data and parameters:
 
@@ -143,7 +144,7 @@ Training Data and parameters:
 
 ## ReservationCancel
 
-- [x] ReservationCancel.json
+- [x] [ReservationCancel.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationCancel.json)
 
 Training Data and parameters:
 
@@ -151,7 +152,7 @@ Training Data and parameters:
   
 ## ReservationGet
 
-- [x] ReservationGet.json
+- [x] [ReservationGet.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/ReservationGet.json)
 
 Training Data and parameters:
 
@@ -159,8 +160,8 @@ Training Data and parameters:
 
 ## *Default Fallback Intent* and *Default Welcome Intent*
 
-- [x] 'Default Fallback Intent.json'
-- [x] 'Default Welcome Intent.json'
+- [x] [Default Fallback Intent.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/Default%20Fallback%20Intent.json)
+- [x] [Default Welcome Intent.json](https://github.com/Impulsleistung/HotelBot/blob/main/dialogflow_HotelBot/intents/Default%20Welcome%20Intent.json)
 
 The standard Dialogflow template is adapted by a HotelBot specific text
 
@@ -195,16 +196,15 @@ Flask-Server code: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/ma
 
 ## Possible Improvements for production
 
-- Remove all global variables and replace them with a real Sqlite. DB
-- Deploy on <https://dashboard.heroku.com/apps>
-- Automated Unit-Tests for Flask
-- Automated Unit-Tests for Dialogflow
-- Establish a development process based on Lessons learned and systems engineering
-- Architectural cut between systems- and software-level
-- GitHub-Style CI/CD
-- Dialogflow - Migration von ES auf die CX Entwicklungsumgebung
-- Clear definition of staging environments (dev, pre-live, live)
-- Link requirements to tests and functions in the code (SPICE)
+- [ ] Remove all global variables and replace them with a real Sqlite. DB
+- [ ] Deploy on <https://dashboard.heroku.com/apps>
+- [ ] Automated Unit-Tests for Flask
+- [ ] Automated Unit-Tests for Dialogflow
+- [ ] Establish a development process based on Lessons learned and systems engineering
+- [ ] Architectural cut between systems- and software-level
+- [ ] Dialogflow - Migration from ES to CX environment
+- [ ] Definition of staging environments (dev, pre-live, live)
+- [ ] Link requirements to tests and functions in the code (SPICE)
 
 ## Tooling
 
@@ -212,5 +212,5 @@ Flask-Server code: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/ma
 - [x] Flask Prototyping Backend, <https://dialogflow.impulsleistung.repl.co>
 - [x] Flask Live Backend, <https://live.impulsleistung.repl.co>
 - [x] Dialogflow Live trained Agent, <https://bot.dialogflow.com/kevin_hotelbot>
-- [ ] Dialogflow Frontend, <https://portal.botcopy.com>
-- [ ] CI/CD, <https://github.com/Impulsleistung>
+- [x] Dialogflow Frontend, <https://portal.botcopy.com>
+- [x] CI/CD, <https://github.com/Impulsleistung>
