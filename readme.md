@@ -42,37 +42,35 @@
 - [x] Dialogflow-Webhook as Flat-JSON: [#fromDialogflow_NORM.csv](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
 - [x] Customer Datebase (pd_init): Console
 
-## Not included in Main Documentation
-
-- [ ] Access Credentials: Google, Replit
-- [ ] Endpoint Configuration: <https://****/webhook>
-
 ## System Architecture
 
-Overview
 ![Complete Architecture](pictures/architecture_hotelBot.png)
 
 ## Dialogflow Schema
 
-List of Intents
+List of implemented intents:
+
 ![Dialogflow Intents](pictures/hotel_bot_intents.jpg)
 
 Dialogflow Architecture
+
 ![Dialogflow Architecture](pictures/architecture_hotelBot_dialogflow.png)
 
 ## Flask Schema
 
 Backend Architecture
+
 ![Flask Backend](pictures/architecture_hotelBot_flask.png)
 
 ## Dialogflow Intent Implementation
 
-- Path: #dialogflow_HotelBot/intents/
+- Path: [#dialogflow_HotelBot/intents/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot/intents)
 
 ## CustomerDelete
 
 - [x] CustomerDelete.json
 Training Data:
+
 ![CustomerDelete](pictures/customerDelete.jpg)
 
 ### CustomerDelete - no
@@ -80,38 +78,49 @@ Training Data:
 - [x] 'CustomerDelete - no.json'
 
 ![CustomerDelete_No](pictures/customerDelete_no.jpg)
-The standard Dialogflow followup for denial is used. No explicit phrases
+
+The standard Dialogflow follow-up for denial is used. No explicit phrases
 
 ### CustomerDelete - yes
 
 - [x] 'CustomerDelete - yes.json'
 
 ![CustomerDelete_Yes](pictures/customerDelete_yes.jpg)
+
 The standard Dialogflow followup for denial is used. No explicit phrases
 
 ## CustomerHelp
 
 - [x] CustomerHelp.json
+
 Training Data:
+
 ![CustomerHelp](pictures/customer_help_1.jpg)
+
 Defined Response:
+
 ![CustomerHelp](pictures/customer_help_2.jpg)
 
 ## ReservationBook
 
 - [x] ReservationBook.json
+
 Training Data:
+
 ![ReservationBook](pictures/reservation_book.jpg)
+
 Configuration of action parameters and response
+
 ![ReservationBook_Parameters](pictures/reservation_book_parameters.jpg)
 
 ### ReservationBook - cancel
 
-The customer decides to *not confirm* the reservation
+The customer decides *not to confirm* the reservation
 
 - [x] 'ReservationBook - cancel.json'
 
 ![CustomerDelete_Yes](pictures/reservation_cancel.jpg)
+
 The standard Dialogflow follow-up for cancel is used. No explicit phrases
 
 ### ReservationBook - yes
@@ -121,24 +130,31 @@ The customer decides to *confirm* the reservation
 - [x] 'ReservationBook - yes.json'
 
 ![CustomerReservation_Yes](pictures/reservation_book_yes.jpg)
+
 The standard Dialogflow follow-up for confirmation is used. No explicit phrases
 
 ### ReservationBook - yes - custom
 
 - [x] 'ReservationBook - yes - custom.json'
+
 Training Data and parameters:
+
 ![CustomerReservation_Yes](pictures/reservation_book_yes_custom.jpg)
 
 ## ReservationCancel
 
 - [x] ReservationCancel.json
+
 Training Data and parameters:
+
 ![CustomerReservation_Yes](pictures/reservation_delete.jpg)
   
 ## ReservationGet
 
 - [x] ReservationGet.json
+
 Training Data and parameters:
+
 ![CustomerReservation_Yes](pictures/reservation_get.jpg)
 
 ## *Default Fallback Intent* and *Default Welcome Intent*
@@ -148,9 +164,9 @@ Training Data and parameters:
 
 The standard Dialogflow template is adapted by a HotelBot specific text
 
-## Code: main.py
+## Code: main routine
 
-The Flask-Server code is commented in [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
+Flask-Server code: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
 
 ![CodeStyle](pictures/code_main_py.jpg)
 
@@ -171,6 +187,11 @@ The Flask-Server code is commented in [#main.py](https://github.com/Impulsleistu
 ## Backend view in CSV
 
 ## Console view
+
+## Known Errors
+
+- [ ] User request for non-existent reservation ID
+- [ ] User wants to delete a customer which does not exist
 
 ## Possible Improvements for production
 
