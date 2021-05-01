@@ -175,21 +175,31 @@ Flask-Server code: [main.py](https://github.com/Impulsleistung/HotelBot/blob/mai
 
 ## Frontend view
 
-### Booking
+Intents
+Ask for help:
 
-### Booking Request
+![1](pictures/need_help_frontend.jpg)
 
-### Reservation cancel
+Make a booking for Kevin:
 
-### Delete Customer
+![3](pictures/reservation_Kevin_frontend.jpg)
 
-### Ask for help
+
+![5](pictures/booking_botcopy.jpg)
+![2](pictures/erase_customer_data_frontend.jpg)
+![4](pictures/reservation_delete_frontend.jpg)
+
+### Console debugging
+
+![1](pictures/erase_customer_data_console.jpg)
+![3](pictures/reservation_Kevin_console.jpg)
+![5](pictures/reservation_delete_console.jpg)
+![2](pictures/two_bookings_for_clark_console.jpg)
 
 ## Backend trace debugging
 
-- [Native CSV Stream](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
-- [Optical enhanced CSV in LibreOffice](https://github.com/Impulsleistung/HotelBot/blob/main/intent_debug_traces.ods)
-
+- [Native CSV Stream](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv) for online preview in GitHub
+- [Optical enhanced CSV in LibreOffice](https://github.com/Impulsleistung/HotelBot/blob/main/intent_debug_traces.ods) for offline usage
 
 ## Console view
 
