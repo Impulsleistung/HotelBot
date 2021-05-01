@@ -44,10 +44,6 @@
 
 ## Dialogflow Schema
 
-List of implemented intents:
-
-![Dialogflow Intents](pictures/hotel_bot_intents.jpg)
-
 Dialogflow Architecture
 
 ![Dialogflow Architecture](pictures/architecture_hotelBot_dialogflow.png)
@@ -59,6 +55,10 @@ Backend Architecture
 ![Flask Backend](pictures/architecture_hotelBot_flask.png)
 
 ## Dialogflow Intent Implementation
+
+List of implemented intents:
+
+![Dialogflow Intents](pictures/hotel_bot_intents.jpg)
 
 - Path: [dialogflow_HotelBot/intents/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot/intents)
 

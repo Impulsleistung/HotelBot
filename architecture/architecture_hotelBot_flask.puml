@@ -1,0 +1,45 @@
+@startuml
+skinparam Shadowing false
+
+actor "Administrator" as Admin
+rectangle "Flask Server\nmain.py" as backend {
+    node "flask main function" as flask_main {
+        rectangle "@app.route("/webhook", methods=["GET", "POST"])\nDialogflow-API" as webhook
+        rectangle "@app.route("/")\nHTML entry point. This is needed to indicate that the server is running" as indexFile
+        rectangle "def results():\nFinalize the response string from flask to Dialogflow" as defResults
+        rectangle "def flattenResult():\nConverting from JSON to Pandas table format" as defFlattenResult
+        rectangle "def intentDetector():\nThe response from Dialogflow is based on a defined intent, this is detected here" as defIntentDetector
+
+    }
+
+    node "Flask Helper function\nmain.py" as flask_helper {
+        rectangle "def passOnly(intentName):\nHelper-Function:\nThe intent fulfillment message is passed through" as defPassOnly
+        rectangle "def passReservationID(intentName):\nHelper-Function:\nThe backend-generated reservation ID is attached to the fulfillment" as defPassReservationID
+        rectangle "def passGetReservationID(intentName):\nHelper-Function:\nThe reservation ID is looked up in the pandas database.\nThe customer recieves the information for his/hers reservation" as defGetPassReservationID
+        rectangle "def writePandas():\nHelper-Function:\nAdd the booking information as a row to the database (df_init)" as defWritePandas
+        rectangle "def readPandas():\n# Helper-Function:\nPrint the complete database with all entries to the console in a human readable format" as defReadPandas
+
+    }
+
+    database "df_init pandas.db\nmain.py" as df_init {
+        rectangle "'Start Date Long': startDate\n'Start Date': startDateShortStr\n'Days': reservationDays\n'Customer': customerName\nindex=[reservationID])"
+
+    }
+    webhook ..> defResults : call
+    webhook ..> defFlattenResult : call
+    webhook ..> defIntentDetector : call
+    defIntentDetector ..> defPassOnly #Black : "call\nCustomerHelp\nReservationCancel\nReservationBook\nReservationBook - yes\nReservationBook - cancel\nCustomerDelete\nCustomerDelete - no\nCustomerDelete - yes\nDefault Fallback Intent\nDefault Welcome Intent"
+    defIntentDetector ..> defPassReservationID #Blue : "call\nReservationBook - yes - custom"
+    defIntentDetector ..> defGetPassReservationID #Red : "call\nReservationGet"
+    defIntentDetector ..> defWritePandas #Gray : "call\nReservationBook - yes - custom"
+    defIntentDetector ..> defReadPandas #Orange : "call\nReservationCancel\nCustomerDelete - yes"
+    defWritePandas ..> defReadPandas : call
+
+}
+
+
+Admin -- indexFile : Check Server Running\n https://hotelbotlive.impulsleistung.repl.co/
+fulfillment -- webhook : Trigger by Dialogflow [GET,POST]\nEndpoint: https://hotelbot****/webhook
+
+
+@enduml

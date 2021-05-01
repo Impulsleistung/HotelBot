@@ -1,0 +1,46 @@
+@startuml
+skinparam Shadowing false
+
+actor "Hotel\nGuest" as HGuest
+rectangle webhook
+node dialogflow {
+        rectangle WebUX
+        rectangle "DIALOGFLOW API" as dialog_api
+        rectangle "Trained Dialogflow\nModel" as dialog_model
+        WebUX .. dialog_api
+        dialog_model .. dialog_api
+        usecase "Fulfillment\nWebhook" as fulfillment
+        
+        
+        fulfillment .. dialog_api
+        dialog_api <.down.> Intents
+
+        package Intents {
+            usecase CustomerDelete
+            usecase CustomerDelete_no
+            usecase CustomerDelete_yes
+            CustomerDelete --> CustomerDelete_yes
+            CustomerDelete --> CustomerDelete_no
+
+            usecase CustomerHelp
+            usecase (DefaultFallbackIntent)/
+            usecase (DefaultWelcomeIntent)/
+            usecase ReservationBook 
+            usecase ReservationBook_cancel
+            usecase "ReservationBook - yes - custom" as resCustom
+            usecase ReservationBook_yes
+            ReservationBook --> ReservationBook_yes
+            ReservationBook_yes --> resCustom
+            ReservationBook --> ReservationBook_cancel
+            
+            usecase ReservationCancel
+            usecase ReservationGet
+
+
+}
+
+HGuest <-down-> WebUX : Webpage:\n https://bot.dialogflow.com/kevin_hotelbot
+fulfillment -up- webhook : Trigger by Dialogflow [GET,POST]\nEndpoint: https://hotelbot****/webhook
+
+
+@enduml
