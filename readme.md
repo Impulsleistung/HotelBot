@@ -25,21 +25,21 @@
 
 ## Structure of Documentation
 
-- [x] Main Documentation: #readme.md
-- [x] Architecture as UML: #architecture/
-- [x] Pictures: #pictures/
+- [x] Main Documentation: [#readme.md](https://github.com/Impulsleistung/HotelBot/blob/main/readme.md)
+- [x] Architecture as UML: [#architecture/](https://github.com/Impulsleistung/HotelBot/tree/main/architecture)
+- [x] Pictures: [#pictures/](https://github.com/Impulsleistung/HotelBot/tree/main/pictures)
 
 ### Sourcecode
 
-- [x] Frontend Chatbot Dialogflow: #dialogflow_HotelBot/
-- [x] Backend Flask: #main.py
-- [x] Flask Bootsequence: #upstart.sh
-- [x] Replit Init: #.replit
+- [x] Frontend Chatbot Dialogflow: [#dialogflow_HotelBot/](https://github.com/Impulsleistung/HotelBot/tree/main/dialogflow_HotelBot)
+- [x] Backend Flask: [#main.py](https://github.com/Impulsleistung/HotelBot/blob/main/main.py)
+- [x] Flask Bootsequence: [#upstart.sh](https://github.com/Impulsleistung/HotelBot/blob/main/upstart.sh)
+- [x] Replit Init: [#.replit](https://github.com/Impulsleistung/HotelBot/blob/main/.replit)
 
 ### Debug Output
 
-- [x] Dialogflow-Webhook as Flat-JSON: #fromDialogflow_NORM.csv
-- [x] Customer Datebase (pd_init): Print Console
+- [x] Dialogflow-Webhook as Flat-JSON: [#fromDialogflow_NORM.csv](https://github.com/Impulsleistung/HotelBot/blob/main/fromDialogflow_NORM.csv)
+- [x] Customer Datebase (pd_init): Console
 
 ## Not included in Main Documentation
 
