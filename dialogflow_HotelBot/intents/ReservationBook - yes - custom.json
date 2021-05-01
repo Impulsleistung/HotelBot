@@ -1,0 +1,59 @@
+{
+  "id": "f144849a-ba46-48f9-87da-fe49f8e5b88c",
+  "parentId": "d38778e0-a348-4922-9aa3-9333d5596544",
+  "rootParentId": "33abfc55-f1cb-4d81-9b2f-c238fbc0c437",
+  "name": "ReservationBook - yes - custom",
+  "auto": true,
+  "contexts": [
+    "ReservationBook-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ReservationBook.ReservationBook-yes.ReservationBook-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8aa3c6f7-0bf8-441f-a355-cf63aad5af6d",
+          "name": "person",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could I please have your name for the confirmation?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. The booking is for $person. Your reservation ID is"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

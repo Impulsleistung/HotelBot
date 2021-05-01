@@ -1,0 +1,252 @@
+[
+  {
+    "id": "d0cb3e4c-8296-4dff-8b30-870b1d7b2038",
+    "data": [
+      {
+        "text": "I want to make a reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23288ab3-a00a-4f9a-8933-3e1e928a0745",
+    "data": [
+      {
+        "text": "I want to make a reservation ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee6e3a4d-5680-4824-8c0c-977744436b7f",
+    "data": [
+      {
+        "text": "I do want to book a bedroom.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e011bea0-e58b-4e4d-93a2-0d6a1676b956",
+    "data": [
+      {
+        "text": "I need to book a bed in a hotel.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78fd248c-9d49-4928-b73e-6d12854140d9",
+    "data": [
+      {
+        "text": "I would like to book a guest room.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1891a38d-9979-4815-bbae-19e8aa46d89a",
+    "data": [
+      {
+        "text": "I need to reserve a hotel room from ",
+        "userDefined": false
+      },
+      {
+        "text": "the second of April 2021",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " nights.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cf41c955-06fb-4596-856b-77e9ef14b4ba",
+    "data": [
+      {
+        "text": "I have a room available from ",
+        "userDefined": false
+      },
+      {
+        "text": "the 2nd of April 2021",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " nights.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71ef7052-5211-4642-ad2a-9c326701fdfc",
+    "data": [
+      {
+        "text": "I wanted to book a guest room from ",
+        "userDefined": false
+      },
+      {
+        "text": "the second of April 2021",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " overnights.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88176524-e37a-4ea9-950d-c573417d84ee",
+    "data": [
+      {
+        "text": "I request a ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": "-night hotel room from the ",
+        "userDefined": false
+      },
+      {
+        "text": "April second, 2021",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a377fb9-a53f-455a-abd6-72f64c0c3204",
+    "data": [
+      {
+        "text": "I would like to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "three",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": "-night hotel room from ",
+        "userDefined": false
+      },
+      {
+        "text": "the second of April 2021",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

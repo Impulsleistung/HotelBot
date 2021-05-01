@@ -1,0 +1,54 @@
+[
+  {
+    "id": "cebe6ce7-65f5-407a-9013-36f39729ac55",
+    "data": [
+      {
+        "text": "Can you assist me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c09868c-a34d-4760-8c2d-f0f795cd8aac",
+    "data": [
+      {
+        "text": "What specifically can I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1fc9f04-4de9-4867-af2c-95953688c1f6",
+    "data": [
+      {
+        "text": "How can I proceed?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62c45c86-1dd6-4082-be4e-5db62ebf86e6",
+    "data": [
+      {
+        "text": "I have to get help.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

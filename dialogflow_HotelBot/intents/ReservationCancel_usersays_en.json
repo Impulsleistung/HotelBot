@@ -1,0 +1,179 @@
+[
+  {
+    "id": "37d759fa-23dd-4470-9112-ca10825cc7cf",
+    "data": [
+      {
+        "text": "I have to cancel my booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "070b916b-d7b5-43dc-81dd-603fa6e6f51d",
+    "data": [
+      {
+        "text": "I have to cancel my trip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d66da149-12a3-4202-872e-b313df34dbb5",
+    "data": [
+      {
+        "text": "I have to postpone my trip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "905ced14-0d06-4974-9155-7d2dd6644741",
+    "data": [
+      {
+        "text": "Hello, my family name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " and my booking code is ",
+        "userDefined": false
+      },
+      {
+        "text": "475",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c54ef6ee-1321-4b24-8680-226331fb7802",
+    "data": [
+      {
+        "text": "Hello, my surname is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": true
+      },
+      {
+        "text": " and my registration number is ",
+        "userDefined": false
+      },
+      {
+        "text": "475",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f78bddb-3d8e-4a45-adca-c4c939401d9a",
+    "data": [
+      {
+        "text": "Hello, my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " and my booking ID is ",
+        "userDefined": false
+      },
+      {
+        "text": "475",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "251d90e9-1cd3-4350-9f19-f19bf019a27c",
+    "data": [
+      {
+        "text": "I would like to have my hotel booking cancelled.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d86d9e0a-5b11-46fc-a97a-9737b791ace1",
+    "data": [
+      {
+        "text": "I would like to annul my hotel reservation.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e1412c0-b165-4199-afe2-4461f271588f",
+    "data": [
+      {
+        "text": "I would like to cancel my hotel booking.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

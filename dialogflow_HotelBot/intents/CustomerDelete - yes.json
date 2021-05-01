@@ -1,0 +1,39 @@
+{
+  "id": "9cfd4b9c-cd28-4bd1-b125-66e51a575bf7",
+  "parentId": "50cd20c0-c7b2-4ff4-8fe3-c929fcd5227f",
+  "rootParentId": "50cd20c0-c7b2-4ff4-8fe3-c929fcd5227f",
+  "name": "CustomerDelete - yes",
+  "auto": true,
+  "contexts": [
+    "CustomerDelete-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CustomerDelete.CustomerDelete-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, deleted everything about this person."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

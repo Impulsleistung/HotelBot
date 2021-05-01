@@ -1,0 +1,44 @@
+{
+  "id": "d38778e0-a348-4922-9aa3-9333d5596544",
+  "parentId": "33abfc55-f1cb-4d81-9b2f-c238fbc0c437",
+  "rootParentId": "33abfc55-f1cb-4d81-9b2f-c238fbc0c437",
+  "name": "ReservationBook - yes",
+  "auto": true,
+  "contexts": [
+    "ReservationBook-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ReservationBook.ReservationBook-yes",
+      "affectedContexts": [
+        {
+          "name": "ReservationBook-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, reservation confirmed. For whom can I confirm the reservation?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

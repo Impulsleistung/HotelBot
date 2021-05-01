@@ -1,0 +1,39 @@
+{
+  "id": "6843b67a-01f6-43a9-a811-fb5b3c718a47",
+  "parentId": "50cd20c0-c7b2-4ff4-8fe3-c929fcd5227f",
+  "rootParentId": "50cd20c0-c7b2-4ff4-8fe3-c929fcd5227f",
+  "name": "CustomerDelete - no",
+  "auto": true,
+  "contexts": [
+    "CustomerDelete-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CustomerDelete.CustomerDelete-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, the data remains where it is. Feel free to request more information about your bookings."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ac9a5482-2435-4f37-a82c-679f4960ef8c",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " and I would like my data to be removed from your system.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b08bc901-f24b-4882-b49c-50ede0e1bb7d",
+    "data": [
+      {
+        "text": "Please delete all of ",
+        "userDefined": false
+      },
+      {
+        "text": "Kevin",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s data.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24acef41-7019-4cf6-b642-ed2d40489948",
+    "data": [
+      {
+        "text": "I am withdrawing from this service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae0c20da-abe4-4442-84e4-13c22068014e",
+    "data": [
+      {
+        "text": "Please erase all information about me.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fd3cfc4-04a6-4bc4-a8ed-5c5633cc686e",
+    "data": [
+      {
+        "text": "I would like to delete my account.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8afa4ea2-39de-466d-9626-5ef23b1400d8",
+    "data": [
+      {
+        "text": "I would like to remove my data.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

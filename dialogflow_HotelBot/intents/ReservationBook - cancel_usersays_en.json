@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fab08711-11d1-494b-ac6e-9537ae4b207b",
+    "data": [
+      {
+        "text": "stop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e177665-aab7-4311-8568-46dbb005ca4a",
+    "data": [
+      {
+        "text": "stop it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13b9df94-de9d-4d3c-ac4e-5e9d25c860c1",
+    "data": [
+      {
+        "text": "never mind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea798db3-ad4c-4542-ba5d-69116f3a9965",
+    "data": [
+      {
+        "text": "just forget about it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c84017b-26bf-4d8d-beb4-2a614a20c5a4",
+    "data": [
+      {
+        "text": "do nothing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0218949-5d87-4f38-8efb-6daf8c176eb1",
+    "data": [
+      {
+        "text": "skip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5e604e2-e4e4-4530-b4bb-00580a470379",
+    "data": [
+      {
+        "text": "cancel that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 5,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd905fb9-7555-4162-af9b-131518d0c76d",
+    "data": [
+      {
+        "text": "forget that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2e68770-c87c-4361-bdaa-c6f0dd8244c9",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7992df25-c3df-4cb2-b856-452fb5717e75",
+    "data": [
+      {
+        "text": "dismiss",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "41f00362-4376-4cba-929d-c46ba009fe0c",
+  "parentId": "33abfc55-f1cb-4d81-9b2f-c238fbc0c437",
+  "rootParentId": "33abfc55-f1cb-4d81-9b2f-c238fbc0c437",
+  "name": "ReservationBook - cancel",
+  "auto": true,
+  "contexts": [
+    "ReservationBook-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ReservationBook.ReservationBook-cancel",
+      "affectedContexts": [
+        {
+          "name": "cancel-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, reservation cancelled"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
